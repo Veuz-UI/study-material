@@ -51,12 +51,16 @@ body{
     /* float: right; */
     width: 20px;
     height: 20px;
-    top: 18px;
+    top: 13px;
     right: 15px;
 
   }
   .log-box{
    margin-left: 20px;
+   
+  }
+  .noti-icon a:hover{
+    color: #E00032;
   }
   .noti-icon img{
     height: 20px;
@@ -90,7 +94,7 @@ height: 30px;
 .s-icon{
   padding: 30px;
   border: 1px solid #EBEBEB;
-  height: 100px;
+  height: 90px;
 }
 .s-icon h5{
   font-family: 'open_sanssemibold';
@@ -412,4 +416,22 @@ color: #E00032;
 }
 .pr1-carousel .owl-nav{
   display: none;
+}
+.pr1{
+  position: relative;
+}
+.pr1 .hrt{
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 4%;
+  left: 81%;
+
+}
+.cm-box .hrt{
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 4%;
+  left: 77%;
 }
