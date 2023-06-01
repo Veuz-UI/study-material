@@ -516,3 +516,113 @@ color: #E00032;
   color: #E00032;
   font-size: 45px;
 }
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  font-family: 'open_sansregular';
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #9D9D9D;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+.breadcrumb{
+  background-color: white !important;
+
+}
+.dlvry-ftr h2{
+  font-size: 20px;
+
+}
+.dlvry-ftr .star i{
+  font-size: 15px;
+}
+.dlvry-ftr .star{
+margin-bottom: 10px;
+
+}
+.dlvry-ftr .price h5{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.dlvry-ftr .price span{
+  font-size: 17px;
+  color: #48BB7D;
+}
+.dlvry-ftr h3{
+  font-size: 13px;
+  font-family: 'open_sansregular';
+}
+.dlvry-ftr span{
+  color: #E00032;
+}
+.dlvry-ftr h4{
+  font-size: 16px;
+  font-family: 'open_sansregular';
+  margin: 0px;
+}
+.dlvry-ftr .form-control{
+  padding: 0.7rem 0.75rem !important;
+}
+.clr-plate1{
+  background-color: #DDDDDD;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.clr-plate2{
+  background-color: #448FFF;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+.clr-plate3{
+  background-color: #1F1F1F;
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+.color{
+  margin-top: 15px;
+
+}
+.d-very{
+  margin-top: 10px;
+}
+.d-very p{
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  
+}
+.truck{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.truck h6{
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #666666;
+  font-family: 'open_sansregular';
+}
+.truck span{
+  color: #1F1F1F;
+}
